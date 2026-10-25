@@ -14,7 +14,7 @@
   "projects": [
     {
       "id": "vexa",
-      "cover": "/media/pasted-image-1792899495632.png",
+      "cover": "",
       "fi": {
         "title": "VEXA",
         "tagline": "ESP32-pohjainen robottikäsi",
