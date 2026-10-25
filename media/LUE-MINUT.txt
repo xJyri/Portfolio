@@ -1,0 +1,3 @@
+Tänne tulevat projektien kuvat ja videot.
+Hallinta (/admin) lataa ne tähän kansioon automaattisesti.
+Pieni kuva: leveys noin 1600 px, JPG, alle 500 kt.

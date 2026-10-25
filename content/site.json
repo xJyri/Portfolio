@@ -1,0 +1,46 @@
+{
+  "firstName": "Jyri",
+  "lastName": "Vepsäläinen",
+  "email": "jyri.vepsalainen@hotmail.com",
+  "linkedin": "https://www.linkedin.com/in/jyri-veps%C3%A4l%C3%A4inen-221488334/",
+  "fi": {
+    "subtitle": "Automaatioinsinööriopiskelija",
+    "about": "Olen neljännen vuoden automaatiotekniikan opiskelija Metropoliasta. Minulla on useamman vuoden käytännön työkokemus teollisuudesta tuotantolinjojen operaattorina sekä kunnossapidon tehtävistä, joissa olen päässyt tutustumaan teollisuudessa yleisimmin käytettyihin toimilaitteisiin ja komponentteihin.\n\nKoulun ja töiden lisäksi toteutan vapaa-ajalla erilaisia IoT-projekteja (ESP32, MQTT), joihin yhdistän 3D-mallinnusta ja 3D-tulostusta. Olen opiskellut Autodesk Fusionin käyttöä itsenäisesti jo useamman vuoden ajan, ja olen myös harjoitellut hyödyntämään Beckhoffin TwinCATiä omissa projekteissani. Olen tällä hetkellä kiinnostunut opinnäytetyömahdollisuuksista."
+  },
+  "en": {
+    "subtitle": "Automation engineering student",
+    "about": "I am a fourth-year automation engineering student at Metropolia. I have several years of hands-on industrial experience as a production line operator and in maintenance tasks, where I have become familiar with the actuators and components most commonly used in industry.\n\nOutside school and work, I build various IoT projects (ESP32, MQTT) in my free time, combining them with 3D modelling and 3D printing. I have taught myself Autodesk Fusion over several years, and I have also practised using Beckhoff TwinCAT in my own projects. I am currently interested in thesis opportunities."
+  },
+  "projects": [
+    {
+      "id": "vexa",
+      "cover": "",
+      "media": [],
+      "fi": {
+        "title": "VEXA",
+        "tagline": "ESP32-pohjainen robottikäsi",
+        "description": "Itse rakennettu kuuden vapausasteen robottikäsi kotona. Projektissa yhdistyvät mekaniikan suunnittelu, moottoriohjaus ja ohjelmistoarkkitehtuuri."
+      },
+      "en": {
+        "title": "VEXA",
+        "tagline": "ESP32-based robotic arm",
+        "description": "A six-degree-of-freedom robotic arm built at home. The project combines mechanical design, motor control and software architecture."
+      }
+    },
+    {
+      "id": "tuotantolinja",
+      "cover": "",
+      "media": [],
+      "fi": {
+        "title": "Tuotantolinjademo",
+        "tagline": "Beckhoff-sekvenssiharjoitus",
+        "description": "Pieni tuotantolinjaa mallintava demo, jossa on servoja, askelmoottoreita ja antureita. Ohjauslogiikka on toteutettu sekvenssityylisesti."
+      },
+      "en": {
+        "title": "Production line demo",
+        "tagline": "Beckhoff sequence exercise",
+        "description": "A small demo modelling a production line with servos, stepper motors and sensors. The control logic is built as a sequence."
+      }
+    }
+  ]
+}
