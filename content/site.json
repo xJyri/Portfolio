@@ -55,7 +55,14 @@
         "tagline": "Beckhoff sequence exercise",
         "description": "A small demo modelling a production line with servos, stepper motors and sensors. The control logic is built as a sequence."
       },
-      "media": []
+      "media": [
+        {
+          "image": "/media/2a417df3-d81c-4428-9510-7bbdd03bae0e.jpg",
+          "video": "",
+          "youtube": "",
+          "caption": ""
+        }
+      ]
     }
   ]
 }
