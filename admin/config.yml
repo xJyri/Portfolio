@@ -41,7 +41,11 @@ collections:
             summary: "{{fields.id}}"
             fields:
               - { name: id, label: Tunniste, widget: string, hint: "Lyhyt nimi ilman välilyöntejä ja ääkkösiä, esim. vexa. Älä vaihda myöhemmin." }
-              - { name: cover, label: Kansikuva (projektilistan palkki ja iso kuva), widget: image, required: false }
+              - { name: cover, label: "Kansikuva (iso kuva projektisivulla, näkyy kokonaisena)", widget: image, required: false }
+              - { name: tileImage, label: "Pikkukuva projektilistaan (valinnainen, jos haluat eri rajauksen kuin kansikuvassa)", widget: image, required: false }
+              - { name: tileX, label: "Pikkukuvan kohta vaakasuunnassa (0 = vasen, 50 = keskellä, 100 = oikea)", widget: number, value_type: int, min: 0, max: 100, default: 50, required: false }
+              - { name: tileY, label: "Pikkukuvan kohta pystysuunnassa (0 = ylhäällä, 50 = keskellä, 100 = alhaalla)", widget: number, value_type: int, min: 0, max: 100, default: 50, required: false }
+              - { name: tileZoom, label: "Pikkukuvan suurennus % (100 = ei suurennusta, 150 = lähempää)", widget: number, value_type: int, min: 100, max: 300, default: 100, required: false }
               - name: fi
                 label: Suomi (FI)
                 widget: object
