@@ -14,8 +14,7 @@
   "projects": [
     {
       "id": "vexa",
-      "cover": "",
-      "media": [],
+      "cover": "/media/pasted-image-1792899495632.png",
       "fi": {
         "title": "VEXA",
         "tagline": "ESP32-pohjainen robottikäsi",
@@ -25,12 +24,12 @@
         "title": "VEXA",
         "tagline": "ESP32-based robotic arm",
         "description": "A six-degree-of-freedom robotic arm built at home. The project combines mechanical design, motor control and software architecture."
-      }
+      },
+      "media": []
     },
     {
       "id": "tuotantolinja",
       "cover": "",
-      "media": [],
       "fi": {
         "title": "Tuotantolinjademo",
         "tagline": "Beckhoff-sekvenssiharjoitus",
@@ -40,7 +39,8 @@
         "title": "Production line demo",
         "tagline": "Beckhoff sequence exercise",
         "description": "A small demo modelling a production line with servos, stepper motors and sensors. The control logic is built as a sequence."
-      }
+      },
+      "media": []
     }
   ]
 }
