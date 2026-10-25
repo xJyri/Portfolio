@@ -29,7 +29,14 @@
         "tagline": "ESP32-based robotic arm",
         "description": "A six-degree-of-freedom robotic arm built at home. The project combines mechanical design, motor control and software architecture."
       },
-      "media": []
+      "media": [
+        {
+          "image": "/media/Gemini_Generated_Image_agahkcagahkcagah.jpg",
+          "video": "",
+          "youtube": "",
+          "caption": ""
+        }
+      ]
     },
     {
       "id": "tuotantolinja",
