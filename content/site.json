@@ -22,7 +22,7 @@
       "fi": {
         "title": "VEXA",
         "tagline": "ESP32-pohjainen robottikäsi",
-        "description": "Itse rakennettu kuuden vapausasteen robottikäsi kotona. Projektissa yhdistyvät mekaniikan suunnittelu, moottoriohjaus ja ohjelmistoarkkitehtuuri."
+        "description": "3D-tulostettu kuuden vapausasteen robottikäsi. Projektissa yhdistyvät mekaniikan suunnittelu, moottoriohjaus ja ohjelmistoarkkitehtuuri.\n\n- Nema 17"
       },
       "en": {
         "title": "VEXA",
