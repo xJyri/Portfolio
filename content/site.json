@@ -81,6 +81,25 @@
           "caption": ""
         }
       ]
+    },
+    {
+      "id": "lampotilaseuranta",
+      "cover": "",
+      "tileImage": "",
+      "tileX": 50,
+      "tileY": 50,
+      "tileZoom": 100,
+      "fi": {
+        "title": "Lämpötilanseurantajärjestelmä",
+        "tagline": "ESP32-pohjainen lämpötilaseuranta",
+        "description": "Akkukäyttöinen, huonekohtainen lämpötilaseuranta, jossa mittausdata kerätään kotipalvelimelle ja visualisoidaan Grafanassa.\n\nSensoriyksikkö: ESP32-C3 SuperMini (Wi-Fi) deep sleep -tilassa akunkeston maksimoimiseksi, BMP280-sensori (lämpötila ja ilmanpaine, I2C), 18650-kenno ja TP4056-latausmoduuli suojapiirillä sekä akkujännitteen mittaus jännitteenjakajalla. Prototyyppi on rakennettu breadboardilla, lopullinen versio juotetaan perfboardille. 3D-tulostetussa kotelossa sensori on lämpöeristetty ESP32:sta ja ilmankierto on huomioitu.\n\nTiedonkeruu: ESP32 → MQTT (Mosquitto) → Telegraf → InfluxDB → Grafana, ajettuna Dockerilla kotipalvelimella. Dashboardille tulee huonekohtaiset käyrät, akkutaso ja hälytykset."
+      },
+      "en": {
+        "title": "Temperature monitoring system",
+        "tagline": "ESP32-based temperature monitoring",
+        "description": "A battery-powered, room-by-room temperature monitoring system where measurement data is collected on a home server and visualised in Grafana.\n\nSensor unit: ESP32-C3 SuperMini (Wi-Fi) in deep sleep to maximise battery life, a BMP280 sensor (temperature and pressure, I2C), an 18650 cell with a TP4056 charging module with protection circuit, and battery voltage measurement through a voltage divider. The prototype is built on a breadboard and the final version will be soldered on perfboard. In the 3D-printed enclosure the sensor is thermally isolated from the ESP32 and airflow has been considered.\n\nData pipeline: ESP32 → MQTT (Mosquitto) → Telegraf → InfluxDB → Grafana, run in Docker on a home server. The dashboard will show per-room curves, battery level and alerts."
+      },
+      "media": []
     }
   ]
 }
